@@ -3,7 +3,8 @@
 """
 Created on Thu Oct 18 19:18:02 2018
 
-@author: gershow
+@author: Emory Scism
+TA: Argha Mondal
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -184,8 +185,7 @@ def oneTurn (tank1box, tank2box, obstacleBox, playerNum, g = 9.8):
     -------
     int
         code 0 = miss, 1 or 2 -- that player won
-    
-    clears figure
+
     draws tanks and obstacles as boxes
     prompts player for velocity and angle
     displays trajectory (shot originates from center of tank)
